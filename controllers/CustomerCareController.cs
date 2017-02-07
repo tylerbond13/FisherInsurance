@@ -22,7 +22,7 @@ public class CustomerCareController : Controller
         return Ok("This is the page to file a claim for the CustomerCareController"); 
     }
 
-    [Route("claimstatus")]
+    [Route("myclaims")]
     public IActionResult ClaimHistory()
     {
         return Ok("This is the page to check their claim status for the CustomerCareController"); 
